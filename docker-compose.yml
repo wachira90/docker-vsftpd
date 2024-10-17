@@ -8,7 +8,7 @@ services:
       - ./myftp/:/home/vsftpd/:rw
     environment:
       - FTP_USER=myadmin
-      - FTP_PASS=dSenB4a5GkXeYi
+      - FTP_PASS=xxxxxxxxxxxx
       - PASV_ADDRESS=127.0.0.1
       - PASV_MIN_PORT=21100
       - PASV_MAX_PORT=21110
