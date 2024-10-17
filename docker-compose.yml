@@ -5,7 +5,7 @@ services:
     image: docker.io/wachiradu/vsftpd:v1
     platform: linux/amd64
     volumes:
-      - ./myftp/:/home/vsftpd/:rw
+      - ./data/:/home/vsftpd/:rw
     environment:
       - FTP_USER=myadmin
       - FTP_PASS=xxxxxxxxxxxx
